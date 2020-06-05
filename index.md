@@ -4,40 +4,67 @@ title: OneDM Overview
 overview: true
 ---
 
-# Under construction — straw man text
+# One Data Model (OneDM)
 
-The goal of oneDm is to standardize the data models so that conversions of models between instances of devices of the various organisations is not needed. 
-There is just a single model selected/created of the participating organisations that everyone can adopt.
+The goal of OneDM is to arrive at a common set of data and interaction
+models that describe IoT devices.
+This will enable an application to work with IoT devices from
+different ecosystems, without a need for converting data and interactions from the
+model of one organization to that of the other.
+Ideally, for every class of IoT device, there is just a single model
+selected/created by the participating organisations, which everyone can adopt.
 
-However that is the end goal, to achieve that goal the first step to take is how to write down a model. Since all participating organizations are doing this currently differently, it makes sense to have a single way to describe models. Hence Semantic Definition Format (SDF) is created. The definition format syntax is described in the SDF repository.
-SDF is JSON formatting of the models. Using JSON as language has a few
-advantages:
+To achieve that goal the first step to take is to have a common way how to write down a model.
+Since all participating organizations are  currently doing this
+in their own ways, it makes sense to develop a single way to describe models.
+Hence the Semantic Definition Format (SDF) is created.
+The syntax and semantics of the SDF format are described in the [SDF][] repository.
 
-- The content is machine readable
-- Various qualifiers already are in existence in JSON schema.
-- The files can be validated by a schema validator. 
-- Abundant of tools and libraries are available on the internet to produce/consume JSON, so tooling can be created to use the SDF models.
+SDF is representing the models in JSON.
+Using JSON as a representation language has a few advantages:
 
-To make sure that SDF is up to the task to convey the different models that are currently in use the playground repository has been created.
-The playground repo contains contributed models of various organisations in SDF format. 
-These models are most of the time automatically generated from the source materials of the participating organisations. 
-Most of the participating organisations have created tooling to convert their models to and from SDF. 
+- The content is machine readable, without the need to construct
+  special parsers.
+- The syntax of the SDF files can be validated by a validator for one
+  of these data description languages.  SDF 1.0 uses both CDDL
+  ([RFC8610][]) and the formats proposed at json-schema.org for this.
+- The structure of the data themselves can be modelled in similar
+  ways; SDF 1.0 borrows specific elements of the json-schema.org
+  proposals for this.
+- Abundant tools and libraries are available to produce/consume JSON,
+  so tooling to work with SDF models can be created efficiently.
+
+To make sure that SDF is up to the task to convey the different models
+that are currently in use, the [playground][] repository has been
+created, with models contributed by various organisations in SDF format.
+Many of these models are automatically generated from the source materials of the participating organisations.
+Most of the participating organisations have created tooling that supports converting their models to and from SDF.
 Hence full round tripping is available to verify if the SDF syntax can convey all the needed information. 
-The playground repository has an CI system in place to verify pull request on syntax. Hence all models in the playground are valid SDF files.
+The [playground][] repository has an CI system in place that analyzes
+pull request with respect to their syntax.  The aim is that all models in the
+playground are syntactically valid SDF files.
 
-Next steps for oneDM (conducted in parallel):
+Next steps for OneDM (conducted in parallel):
 
 - Standardize the Semantic Definition Format (SDF) in IETF. 
-- Selecting models in the playground to for oneDM
-- Improve SDF so that more complex models can be created.
+- Select models in the playground to for OneDM
+- Further develop SDF so that more complex models can be created.
+
+## Repository overview
+
+| repo name       | Description                                                          |
+|-----------------|----------------------------------------------------------------------|
+| [SDF][]         | Semantic Definition Format (SDF) for Data and Interactions of Things |
+| [tools][]       | SDF tools                                                            |
+| [playground][]  | playground of non-official data models that could be, but aren't yet, OneDM data models. Correct SDF syntax. |
+| [exploratory][] | playground of non-official data models that explore new SDF features or new ways of using SDF. Not always conforming to current SDF validation syntax. |
+| [unit_test][]   | SDF models for unit (error) testing                        |
 
 
-Repository overview
+[SDF]: https://github.com/one-data-model/SDF
+[tools]: https://github.com/one-data-model/tools
+[playground]: https://github.com/one-data-model/playground
+[exploratory]: https://github.com/one-data-model/exploratory
+[unit_test]: https://github.com/one-data-model/unit_test
 
-| repo name          |  Description                                                         |
-|--------------------|----------------------------------------------------------------------|
-| SDF                | Semantic Definition Format (SDF) for Data and Interactions of Things |
-| tools              | SDF tools                                                            |
-| playground         | playground of non-official oneDM data models, correct SDF syntax     |
-| exploratory        | Link to text or embedded text containing license terms               |
-| unit_test          | repo with SDF models for (error) testing                             |
+[RFC8610]: https://tools.ietf.org/html/rfc8610
