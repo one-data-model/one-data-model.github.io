@@ -41,14 +41,15 @@ Many of these models are automatically generated from the source materials of th
 Most of the participating organisations have created tooling that supports converting their models to and from SDF.
 Hence full round tripping is available to verify if the SDF syntax can convey all the needed information. 
 The [playground][] repository has an CI system in place that analyzes
-pull request with respect to their syntax.  The aim is that all models in the
+pull requests and provides reports with respect to their syntax usage.
+The aim is that all models in the
 playground are syntactically valid SDF files.
 
 Next steps for OneDM (conducted in parallel):
 
-- Standardize the Semantic Definition Format (SDF) in IETF. 
+- Standardize the Semantic Definition Format (SDF) in IETF
 - Select models in the playground to for OneDM
-- Further develop SDF so that more complex models can be created.
+- Further develop SDF so that more complex models can be created
 
 ## Repository overview
 
@@ -56,7 +57,7 @@ Next steps for OneDM (conducted in parallel):
 |-----------------|----------------------------------------------------------------------|
 | [SDF][]         | Semantic Definition Format (SDF) for Data and Interactions of Things |
 | [tools][]       | SDF tools                                                            |
-| [playground][]  | playground of non-official data models that could be, but aren't yet, OneDM data models. Correct SDF syntax. |
+| [playground][]  | playground of non-official data models that could be OneDM data models, but aren't yet. Correct SDF syntax.  |
 | [exploratory][] | playground of non-official data models that explore new SDF features or new ways of using SDF. Not always conforming to current SDF validation syntax. |
 | [unit_test][]   | SDF models for unit (error) testing                        |
 
