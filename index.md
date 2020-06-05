@@ -39,11 +39,12 @@ that are currently in use, the [playground][] repository has been
 created, with models contributed by various organisations in SDF format.
 Many of these models are automatically generated from the source materials of the participating organisations.
 Most of the participating organisations have created tooling that supports converting their models to and from SDF.
-Hence full round tripping is available to verify if the SDF syntax can convey all the needed information. 
-The [playground][] repository has an CI system in place that analyzes
+Hence full round tripping is available to verify if the SDF syntax can convey all the needed information.
+The [playground][], [exploratory][], and [unit_test][] repositories have a CI system in place that analyzes
 pull requests and provides reports with respect to their syntax usage.
 The aim is that all models in the
-playground are syntactically valid SDF files.
+[playground][] are syntactically valid SDF files, while the other
+repositories tolerate (or deliberately contain) deviations.
 
 Next steps for OneDM (conducted in parallel):
 
