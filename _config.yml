@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+title: One Data Model
+site.title: One Data Model
+site.description: >
+  Interoperability for IoT Data Models
+site.github.repository_url: https://github.com/one-data-model
