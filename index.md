@@ -6,6 +6,8 @@ overview: true
 
 # One Data Model (OneDM)
 
+# UNDER CONSTRUCTION
+
 The goal of OneDM is to arrive at a common set of data and interaction
 models that describe IoT devices.
 This will enable an application to work with IoT devices from
