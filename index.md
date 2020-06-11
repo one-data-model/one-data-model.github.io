@@ -65,6 +65,9 @@ Next steps for OneDM (conducted in parallel):
 | [unit_test][]   | SDF models for unit (error) testing                        |
 
 
+
+[FAQ](./faq.html).
+
 [SDF]: https://github.com/one-data-model/SDF
 [tools]: https://github.com/one-data-model/tools
 [playground]: https://github.com/one-data-model/playground
