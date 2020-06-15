@@ -96,7 +96,6 @@ The OneDM prior art review considered at least 6 different languages and formats
  -->
 <!--  LocalWords:  OpenAPI LwM OCF github namespaces WoT TDs LD
  -->
- 
-[back](./)
+
 
 

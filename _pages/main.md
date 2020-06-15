@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: OneDM Overview
 overview: true
 permalink: /mainpage/
@@ -65,9 +65,6 @@ Next steps for OneDM (conducted in parallel):
 | [exploratory][] | playground of non-official data models that explore new SDF features or new ways of using SDF. Not always conforming to current SDF validation syntax. |
 | [unit_test][]   | SDF models for unit (error) testing                        |
 
-
-
-[FAQ](./faq.html).
 
 [SDF]: https://github.com/one-data-model/SDF
 [tools]: https://github.com/one-data-model/tools
