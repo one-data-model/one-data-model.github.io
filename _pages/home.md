@@ -2,7 +2,7 @@
 layout: home
 title: home 
 overview: true
-permalink: /home/
+permalink: /
 ---
 
 # One Data Model (OneDM)
