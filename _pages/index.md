@@ -1,8 +1,8 @@
 ---
 layout: home
-title: OneDM 
+title: home 
 overview: true
-permalink: /index/
+permalink: /home/
 ---
 
 # One Data Model (OneDM)
