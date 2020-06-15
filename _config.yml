@@ -14,7 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: One Data Model
-
+author:
+  name: one-data-model
+  email: onedm@iotliaison.org
+  
 description: >- # this means to ignore newlines until "baseurl:"
   Interoperability for IoT Data Models
   site.github.repository_url: https://github.com/one-data-model
