@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: IoTivity  
-logo: /assets/images/IoTivity-logo.png
-email: iotivity-dev@lists.iotivity.org
+title: One Data Model
+
 description: >- # this means to ignore newlines until "baseurl:"
-  IoTivity is an implementation of OCF.
-twitter_username: username
-github_username: username
+  Interoperability for IoT Data Models
+  site.github.repository_url: https://github.com/one-data-model
+#twitter_username: username
+#github_username: username
 minimal_mistakes_skin: default
 search: true
 
@@ -58,16 +58,16 @@ plugins:
 
 
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+#  links:
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/iotivity"
-    - label: "linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/company/open-connectivity-foundation/"
+      url: "https://github.com/one-data-model"
+#    - label: "linkedin"
+#      icon: "fab fa-fw fa-linkedin"
+#      url: "https://www.linkedin.com/company/open-connectivity-foundation/"
 
 defaults:
   # _posts
