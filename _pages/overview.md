@@ -2,7 +2,7 @@
 layout: default
 title: OneDM Overview
 overview: true
-permalink: /mainpage/
+permalink: /overview/
 ---
 
 # One Data Model overview
