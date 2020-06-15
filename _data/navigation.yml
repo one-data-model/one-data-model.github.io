@@ -1,0 +1,13 @@
+main:
+  - title: "Introduction"
+    url: /mainpage/
+#  - title: "Architecture"
+#    url: /architecture/
+#  - title: "Getting Started"
+#    url: /gsg-start/
+  - title: "Faq"
+    url: /faq/
+#  - title: "Wiki"
+#    url: https://wiki.iotivity.org/
+  - title: "About"
+    url: /about/

@@ -2,6 +2,7 @@
 layout: default
 title: OneDM FAQ
 overview: false
+permalink: /mainpage/
 ---
 
 # Frequently Asked Questions for One Data Model (OneDM)
