@@ -1,13 +1,12 @@
 ---
-layout: home
+layout: default
 title: OneDM Overview
 overview: true
 permalink: /mainpage/
 ---
 
-# One Data Model (OneDM)
+# One Data Model overview
 
-# UNDER CONSTRUCTION
 
 The goal of OneDM is to arrive at a common set of data and interaction
 models that describe IoT devices.
