@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: home 
 overview: true
 permalink: /
