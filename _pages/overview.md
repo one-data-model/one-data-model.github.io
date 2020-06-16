@@ -3,6 +3,10 @@ layout: default
 title: OneDM Overview
 overview: true
 permalink: /overview/
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 
 # One Data Model overview
