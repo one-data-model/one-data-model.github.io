@@ -20,7 +20,8 @@ author:
   
 description: >- # this means to ignore newlines until "baseurl:"
   Interoperability for IoT Data Models
-  site.github.repository_url: https://github.com/one-data-model
+
+site.github.repository_url: https://github.com/one-data-model
 #twitter_username: username
 #github_username: username
 #minimal_mistakes_skin: default
