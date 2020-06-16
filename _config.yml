@@ -13,34 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: One Data Model
-author:
-  name: one-data-model
-  email: onedm@iotliaison.org
-  
+title: One Data Model  
+#logo: /assets/images/IoTivity-logo.png
+#email: iotivity-dev@lists.iotivity.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Interoperability for IoT Data Models
-
-site.github.repository_url: https://github.com/one-data-model
+  One Data Model 
+  
+  
 #twitter_username: username
 #github_username: username
-#minimal_mistakes_skin: default
-#theme: jekyll-theme-slate
-theme: minima
-
-# more info about minima:
-#https://github.com/jekyll/minima
-
+minimal_mistakes_skin: default
 search: true
 
 # Build settings
 markdown: kramdown
-#remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes
 # Outputting
-#permalink: /
-#paginate: 5 # amount of posts to show
-#paginate_path: /page:num/
-#timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -62,22 +54,35 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
 
+footer:
+  links:
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/one-data-model"
+    #- label: "linkedin"
+    #  icon: "fab fa-fw fa-linkedin"
+    #  url: "https://www.linkedin.com/company/open-connectivity-foundation/"
+
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
       author_profile: false
-      #read_time: false
-      #comments: true
-      #share: true
-      #related: true
+      read_time: false
+      comments: true
+      share: true
+      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -86,9 +91,9 @@ defaults:
       layout: single
       author_profile: false
 
-header_pages:
- - about.md
- - faq.md
- 
-social_links:
-    github:  one-data-model
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
