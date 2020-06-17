@@ -63,6 +63,7 @@ Next steps for OneDM (conducted in parallel):
 | repo name       | Description                                                          |
 |-----------------|----------------------------------------------------------------------|
 | [SDF][]         | Semantic Definition Format (SDF) for Data and Interactions of Things |
+| [IETF108][]     | Information for the standardization work for IETF meeting 108        |
 | [tools][]       | SDF tools                                                            |
 | [playground][]  | playground of non-official data models that could be OneDM data models, but aren't yet. Correct SDF syntax.  |
 | [exploratory][] | playground of non-official data models that explore new SDF features or new ways of using SDF. Not always conforming to current SDF validation syntax. |
@@ -74,5 +75,7 @@ Next steps for OneDM (conducted in parallel):
 [playground]: https://github.com/one-data-model/playground
 [exploratory]: https://github.com/one-data-model/exploratory
 [unit_test]: https://github.com/one-data-model/unit_test
+
+[IETF108]: https://github.com/one-data-model/ietf108
 
 [RFC8610]: https://tools.ietf.org/html/rfc8610

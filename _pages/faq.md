@@ -3,6 +3,10 @@ layout: single
 title: FAQ
 overview: false
 permalink: /faq/
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 
 # Frequently Asked Questions for One Data Model (OneDM)
@@ -83,10 +87,7 @@ The OneDM prior art review considered at least 6 different languages and formats
 - The use of JSON enables familiar idiomatic patterns and tools to be used in construction and processing of SDF definitions. Schema driven editors, text editor plugins, schema validation, and schema-driven constructors are already available to assist in SDF oriented workflows.
 
 ### How does the SDF terminology relates to other organizational usages.
-The relationship between SDF terminology and other SDO terminology is explained at:
-[terminology][] 
-
-
+The relationship between SDF [terminology][] and other SDO terminology is explained.
 
 
 [SDF]: https://github.com/one-data-model/SDF
