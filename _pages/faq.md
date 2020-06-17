@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: OneDM FAQ
 overview: false
 permalink: /faq/

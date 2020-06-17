@@ -1,6 +1,6 @@
 ---
-layout: default
-title: OneDM Overview
+layout: single
+title: Overview
 overview: true
 permalink: /overview/
 
