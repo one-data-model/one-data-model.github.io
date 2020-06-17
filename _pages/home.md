@@ -12,27 +12,28 @@ excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.19.3">Latest release v4.19.3</a></small>
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - #image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    title: "one DM overview"
+    excerpt: "one DM overview."
+    url: "/overview/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - #image_path: /assets/images/mm-responsive-feature.png
+    alt: "SDF Syntax"
+    title: "SDF syntax"
+    excerpt: "About the One Data Model effort."
+    url: "https://github.com/one-data-model/SDF"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
+  - #image_path: /assets/images/mm-free-feature.png
     alt: "FAQ"
     title: "FAQ"
     excerpt: "Frequently asked questions"
     url: "/faq/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
+
 ---
 
 {% include feature_row %}
