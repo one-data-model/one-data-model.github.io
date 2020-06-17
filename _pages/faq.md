@@ -1,6 +1,6 @@
 ---
 layout: single
-title: OneDM FAQ
+title: FAQ
 overview: false
 permalink: /faq/
 ---
@@ -82,6 +82,11 @@ The OneDM prior art review considered at least 6 different languages and formats
 - SDF is represented in JSON to enable developers to use JSON tools for the basic semantic integration, providing anchor URIs for defined terms that represent application data model concepts, and providing JSON based key/value metadata for definition elements (SDF "qualities").
 - The use of JSON enables familiar idiomatic patterns and tools to be used in construction and processing of SDF definitions. Schema driven editors, text editor plugins, schema validation, and schema-driven constructors are already available to assist in SDF oriented workflows.
 
+### How does the SDF terminology relates to other organizational usages.
+The relationship between SDF terminology and other SDO terminology is explained at:
+[terminology][] 
+
+
 
 
 [SDF]: https://github.com/one-data-model/SDF
@@ -89,6 +94,9 @@ The OneDM prior art review considered at least 6 different languages and formats
 [playground]: https://github.com/one-data-model/playground
 [exploratory]: https://github.com/one-data-model/exploratory
 [unit_test]: https://github.com/one-data-model/unit_test
+
+
+[terminology]: /terminology
 
 [RFC8610]: https://tools.ietf.org/html/rfc8610
 

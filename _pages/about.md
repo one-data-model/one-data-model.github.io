@@ -3,7 +3,13 @@ permalink: /about/
 title: "About"
 overview: false
 layout: default
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
+
+# History
 
 In the late fall of 2018, the ZigBee Alliance hosted a gathering of IoT industry leaders (Hive), including other IoT standards organizations, to get together and have a frank and open discussion about the Internet of Things; what is the current status, what are the big challenges ahead?
 

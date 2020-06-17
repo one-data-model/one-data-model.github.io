@@ -3,6 +3,10 @@ layout: single
 title: Terminology
 overview: true
 permalink: /terminology/
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 # Terminology
 
