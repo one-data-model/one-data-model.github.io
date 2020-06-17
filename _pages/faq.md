@@ -1,8 +1,8 @@
 ---
-layout: single
-title: FAQ
-overview: false
 permalink: /faq/
+title: "FAQ"
+overview: false
+layout: single
 
 toc: true
 toc_label: "Table of Contents"
