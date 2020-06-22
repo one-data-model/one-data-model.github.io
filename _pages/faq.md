@@ -9,7 +9,7 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
-# Frequently Asked Questions for One Data Model (OneDM)
+## Frequently Asked Questions for One Data Model (OneDM)
 
 ### Who is behind OneDM? Where does OneDM come from?
 
@@ -61,9 +61,10 @@ OneDM, as an organization, is governed by a set of participants that operate und
 
 As an independent organization or developer, you can participate in the open OneDM meetings and teleconferences, submit github issues and make pull requests, and in general contribute freely to the development of OneDM as an open source community project subject to OneDM project governance policies.
 
-# Frequently Asked Questions for the Semantic Definition Format (SDF)
+## Frequently Asked Questions for the Semantic Definition Format (SDF)
 
 ### There are so many IoT languages and data formats. Why did OneDM create a new format (SDF) rather than reuse an existing format for IoT data models?
+
 The OneDM prior art review considered at least 6 different languages and formats for SDF. None of the existing formats covered the requirements well enough to warrant direct adoption. The requirements include:
 - Semantic Integration. Provide stable URIs to map concepts
 - Namespace support. Enable organizations to contribute and manage models in disparate namespaces to avoid conflicts and enable decoupled work streams. Models can be merged by mixing namespace references. Definitions can be adopted into new namespaces by changing prefixes.
@@ -74,6 +75,7 @@ The OneDM prior art review considered at least 6 different languages and formats
 - Ability to model high level composed organizations of devices and services
 
 ### What makes SDF different from the recent W3C Web of Things recommendation for WoT TD (Thing Description)
+
 - Both frameworks define thing "affordances" characterized as Properties, Actions, and Events
 - SDF is meant to define application types by mapping vocabulary terms to definitions. For example, SDF can describe common affordance types for all light switches (on/off state, toggle actions).
 - SDF is protocol-agnostic and has no defined protocol binding
@@ -83,10 +85,12 @@ The OneDM prior art review considered at least 6 different languages and formats
 - SDF can provide the semantic anchors for abstract application types (on/off switch. motion sensor) and TD can provide the instance definitions, payload schemas, and protocol bindings with network addresses for the affordances.
 
 ### Why is SDF represented in JSON and not JSON-LD for better semantic integration?
+
 - SDF is represented in JSON to enable developers to use JSON tools for the basic semantic integration, providing anchor URIs for defined terms that represent application data model concepts, and providing JSON based key/value metadata for definition elements (SDF "qualities").
 - The use of JSON enables familiar idiomatic patterns and tools to be used in construction and processing of SDF definitions. Schema driven editors, text editor plugins, schema validation, and schema-driven constructors are already available to assist in SDF oriented workflows.
 
 ### How does the SDF terminology relates to other organizational usages.
+
 The relationship between SDF [terminology][] and other SDO terminology is explained.
 
 
