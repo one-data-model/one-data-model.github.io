@@ -17,7 +17,7 @@ In the late fall of 2018, the ZigBee Alliance hosted a gathering of IoT industry
 
 By far, the most frequently cited challenge was the inconsistency and lack of interoperability across the field of IoT data models. The lack of a common data model for IoT devices was seen as the biggest challenge; competition between data models is the biggest impediment to growth of the industry. The industry leaders at Hive 2018 decided to collectively work through the differences in IoT data models and deliver a converged, harmonized IoT data model to industry.
 
-One Data Model (OneDM) was started in early 2019, consisting of several IoT SDOs (Standards Development Organizations) and IoT device and platform vendors, operating under a broad, multi-party liaison agreement. 
+One Data Model (OneDM) was started in early 2019, consisting of several IoT SDOs (Standards Development Organizations) and IoT device and platform vendors, operating under a broad, multi-party liaison agreement.
 
 ### What is the problem being solved by OneDM, and how is it being solved?
 
@@ -39,7 +39,7 @@ The second phase is the normalization of IoT data models to select a common set 
 
 The purpose of OneDM is not to compete with any existing standards body, but rather to provide a common set of tools and models that can be used by all bodies and organizations. Rather than attempting to provide a "better" alternative, OneDM sets out to bring forward the best of several contributing organizations, and then provide the resulting converged models and underlying tools back for everyone to use.
 
-The tools and formats developed by OneDM are a collaborative work product of several IoT organizations and embody the best thinking in IoT data modeling, enabled by the contributors agreement to stop trying to compete on data models and make it easier for our collective markets to develop and grow based on a common interoperable technology. We decided to collaborate where there is little differentiation to be exploited, and compete where we can find more value in developing new system features.
+The tools and formats developed by OneDM are a collaborative work product of several IoT organizations and embody the best thinking in IoT data modeling, enabled by the contributor's agreement to stop trying to compete on data models and make it easier for our collective markets to develop and grow based on a common interoperable technology. We decided to collaborate where there is little differentiation to be exploited, and compete where we can find more value in developing new system features.
 
 OneDM will be open for anyone to join and contribute, and all of the tools and models will be available under open source license terms.
 
@@ -54,6 +54,11 @@ As an organization or vendor, you can use OneDM to host a privately-managed repo
 IoT definitions can be uploaded to OneDM by making pull requests of SDF files to a OneDM repository. Initially, OneDM hosts two repositories, the [playground][] for work on convergence of common definitions, and an [exploratory][] repository to work on new language features, extension points, and design patterns. Additionally, new OneDM repositories will be created for definitions to be managed by organizations outside OneDM.
 
 As OneDM moves into the model convergence phase, you can contribute proposed definitions and features and participate in the model down-selection process that will be conducted in open meetings and teleconferences.
+
+### What license is oneDM using for its data models?
+
+All models contributed should have BSD-3 licence.
+In this way the in and out licence of the acceptance process will have the same licence.
 
 ### How do I get involved in the development of OneDM?
 
@@ -74,7 +79,7 @@ The OneDM prior art review considered at least 6 different languages and formats
 - Strong composition ability, model mash-ups
 - Ability to model high level composed organizations of devices and services
 
-### What makes SDF different from the recent W3C Web of Things recommendation for WoT TD (Thing Description)
+### What makes SDF different from the recent W3C Web of Things recommendation for WoT TD (Thing Description)?
 
 - Both frameworks define thing "affordances" characterized as Properties, Actions, and Events
 - SDF is meant to define application types by mapping vocabulary terms to definitions. For example, SDF can describe common affordance types for all light switches (on/off state, toggle actions).
@@ -89,7 +94,7 @@ The OneDM prior art review considered at least 6 different languages and formats
 - SDF is represented in JSON to enable developers to use JSON tools for the basic semantic integration, providing anchor URIs for defined terms that represent application data model concepts, and providing JSON based key/value metadata for definition elements (SDF "qualities").
 - The use of JSON enables familiar idiomatic patterns and tools to be used in construction and processing of SDF definitions. Schema driven editors, text editor plugins, schema validation, and schema-driven constructors are already available to assist in SDF oriented workflows.
 
-### How does the SDF terminology relates to other organizational usages.
+### How does the SDF terminology relates to other organizational usages?
 
 The relationship between SDF [terminology][] and other SDO terminology is explained.
 

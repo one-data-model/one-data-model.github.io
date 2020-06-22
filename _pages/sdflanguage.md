@@ -43,6 +43,7 @@ Using JSON as a representation language has a few advantages:
   so tooling to work with SDF models can be created efficiently.
 
 The syntax and semantics of the SDF format are described in the [SDF][] repository.
+The [terminology][] page relates the SDF terms against SDO used terms.
 
 ## Verification of SDF
 
@@ -87,3 +88,5 @@ Next steps for SDF development (conducted in parallel):
 [IETF108]: https://github.com/one-data-model/ietf108
 
 [RFC8610]: https://tools.ietf.org/html/rfc8610
+
+[terminology]: /terminology
