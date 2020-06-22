@@ -107,14 +107,14 @@ Next steps for OneDM (conducted in parallel):
 
 ## Repository overview
 
-| repo name       | Description                                                          |
-|-----------------|----------------------------------------------------------------------|
-| [SDF][]         | Semantic Definition Format (SDF) for Data and Interactions of Things |
-| [IETF108][]     | Information for the standardization work for IETF meeting 108        |
-| [tools][]       | SDF tools                                                            |
-| [playground][]  | playground of non-official data models that could be OneDM data models, but aren't yet. Correct SDF syntax.  |
-| [exploratory][] | playground of non-official data models that explore new SDF features or new ways of using SDF. Not always conforming to current SDF validation syntax. |
-| [unit_test][]   | SDF models for unit (error) testing                        |
+| repo name       | Type      | Description                                             |
+|-----------------|-----------|---------------------------------------------------------|
+| [SDF][]         | Language   |  Semantic Definition Format (SDF) for Data and Interactions of Things |
+| [IETF108][]     | Language   | Information for the standardization work for IETF meeting 108        |
+| [tools][]       | Language   | SDF tools                                                            |
+| [playground][]  | Data Models | Playground of non-official data models that could be OneDM data models, but aren't yet. Correct SDF syntax.  |
+| [exploratory][] | Data Models | Playground of non-official data models that explore new SDF features or new ways of using SDF. Not always conforming to current SDF validation syntax. |
+| [unit_test][]   | Data Models | SDF models for unit (error) testing                        |
 
 [SDF]: https://github.com/one-data-model/SDF
 [tools]: https://github.com/one-data-model/tools
