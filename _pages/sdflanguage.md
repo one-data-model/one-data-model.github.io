@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Overview
+title: Semantic Definition Format
 overview: true
 permalink: /sdflanguage/
 
@@ -17,8 +17,8 @@ Decoupled from network bindings, protocol-agile
 - Common categories for constraints
 - Common format for definitions
 
-Initial focus on affordances is to normalize device-facing interactions across SDOs and vendors.
-The choice of creating a new description format was due to that used description formats by the participating organsiations where tailor made for the purpose in the organisation only. 
+Initial focus on affordances is to normalize device-facing interactions across SDO's and vendors.
+The choice of creating a new description format was due to that used description formats by the participating organizations where tailor made for the purpose in the organization only.
 It was deemed to be too difficult to take an existing definition format and change it to in such way that it would satisfy the need of conveying data models.
 
 The requirements that needs to be full filled are:
@@ -44,13 +44,12 @@ Using JSON as a representation language has a few advantages:
 
 The syntax and semantics of the SDF format are described in the [SDF][] repository.
 
-
 ## Verification of SDF
 
 To make sure that SDF is up to the task to convey the different models
-that are currently in use within the participating organisations, the [playground][] repository has been
-created. The playground repository contains SDF models contributed by the participating organisations.
-Many of these models are automatically generated from the source materials of the participating organisations to verify that automatic translation is optainable with SDF.
+that are currently in use within the participating organizations, the [playground][] repository has been
+created. The playground repository contains SDF models contributed by the participating organizations.
+Many of these models are automatically generated from the source materials of the participating organizations to verify that automatic translation is obtainable with SDF.
 
 ## Syntax validation
 
