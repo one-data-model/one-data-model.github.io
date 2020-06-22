@@ -10,31 +10,32 @@ toc_icon: "cog"
 ---
 # Terminology
 
-| ODM Definition | [OMA IPSO/LwM2M][lwm2m-spec]      |  [Open Connectivity Foundation (OCF)][ocf-spec]|
+| SDF Definition | [OMA IPSO/LwM2M][lwm2m-spec]      |  [Open Connectivity Foundation (OCF)][ocf-spec]|
 | -------------  | ------------------- |------------------- |
-| odmThing       | LwM2M device        |    OCF Device  |
-| odmObject      | Object              |    OCF Resource    |
-| odmAction      | Resource            |    OCF Resource |
-| odmEvent       | (SEND interface?)   |    response of Observe   |
-| odmProperty    | Resource            |    JSON property   |
+| sdfThing       | LwM2M device        |    OCF Device  |
+| sdfObject      | Object              |    OCF Resource    |
+| sdfAction      | Resource            |    OCF Resource |
+| sdfEvent       | (SEND interface?)   |    response of Observe   |
+| sdfProperty    | Resource            |    JSON property   |
+| sdfData        |         |     reusable definitions at #/definitions |
+| sdfProduct        |         |    N/A   |
 
 ## Qualities
 
 | Quality       | Description                                                             | OMA IPSO/LwM2M      | OCF [OpenAPI][oas]   |
 | ------------- | ----------------------------------------------------------------------- | ------------------- | -------------------- |
-| name          | human readable name                                                     | Name                | n (as JSON property) |
+| label          | human readable name                                                     | Name                | n (as JSON property) |
 | description   | human readable description                                              | Description         | description          |
 | title         | human readable title to display                                         | Name                | title                |
 | $comment      | explanatory comments                                                    | XML comments        | N/A                  |
-| odmRequired   | Array of JSON Pointers to mandatory items in a valid definition         | Optional            | required             |
-| odmComponent  | Array of JSON Pointers to definitions to be included                    | N/A                 | $ref                 |
-| odmRef        | reference to a definition to be used as a template for a new definition | Re-usable resources | $ref                 |
+| sdfRequired   | Array of JSON Pointers to mandatory items in a valid definition         | Optional            | required             |
+| sdfRef        | reference to a definition to be used as a template for a new definition | Re-usable resources | $ref                 |
 | readable      | Reads are allowed                                                       | Operations: R       | readOnly, Note 1     |
 | writable      | Writes are allowed                                                      | Operations: W       | readOnly, Note 1     |
 | observable    | flag to indicate asynchronous notification is available                 | (always)            | (always)             |
 | contentFormat | IANA media type string                                                  | text/raw/SenML      | N/A                  |
 | subtype       | subtype enumeration                                                     | (Part of) Type      | N/A                  |
-| widthInBits   | hint for protocol binding                                               | N/A                 | N/A                  |
+
 | units         | SenML unit code                                                         | Units               | N/A                  |
 | nullable      | indicates a null value is available for this type                       | true                | N/A                  |
 | scaleMinimum  | lower limit of value in units                                           | N/A                 | N/A                  |
