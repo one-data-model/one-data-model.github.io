@@ -14,7 +14,7 @@ toc_icon: "cog"
 One Data model group is established to solve interoperability issues.
 The most prominent issue with IOT is that all devices are using different semantic models for 
 
-## History 
+## History
 
 One DM emerged from Zigbee "Hive" meeting, fall 2018.
 In this meeting a cross-industry consensus on lack of common IoT data models was identified.
@@ -35,7 +35,7 @@ selected/created by the participating organizations, which everyone can adopt.
 ## The Charter
 
 The One Data Model Liaison Group will define a single application data model to support a common language for the Internet of Things. The group will define a meta-model language and a single consistent data model to describe the Internet of Things. The data model will serve multiple interaction models among devices, applications and services interacting with and communicating about the Internet of Things. To expedite time to market and wide adoption, the One Data Model will be generated based on data models contributed by participating organizations and companies which the group will select, combine, edit and enhance, in consultation with the broader ecosystem. The group will make the One Data Model available under an open source license that can be easily adopted by multiple organizations, companies, industries and ecosystems.
- 
+
 ## Process
 
 The process established was:
@@ -92,7 +92,7 @@ that are currently in use, the [playground][] repository has been
 created, with models contributed by various organizations in SDF format.
 Many of these models are automatically generated from the source materials of the participating organizations.
 Most of the participating organizations have created tooling that supports converting their models to and from SDF.
-Hence full round tripping is available to verify if the SDF syntax can convey all the needed information.
+Hence, full round tripping is available to verify if the SDF syntax can convey all the needed information.
 The [playground][], [exploratory][], and [unit_test][] repositories have a CI system in place that analyzes
 pull requests and provides reports with respect to their syntax usage.
 The aim is that all models in the
