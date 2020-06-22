@@ -79,6 +79,7 @@ Next steps for SDF development (conducted in parallel):
 
 
 [SDF]: https://github.com/one-data-model/SDF
+[SDF language]: https://github.com/one-data-model/SDF
 [tools]: https://github.com/one-data-model/tools
 [playground]: https://github.com/one-data-model/playground
 [exploratory]: https://github.com/one-data-model/exploratory

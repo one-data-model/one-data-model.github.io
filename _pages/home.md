@@ -24,8 +24,10 @@ feature_row:
   - #image_path: /assets/images/mm-responsive-feature.png
     alt: "SDF Syntax"
     title: "SDF syntax"
-    excerpt: "Current IETF draft of the SDF syntax."
-    url: "https://github.com/one-data-model/SDF"
+    excerpt: "Semantic Definition Format (SDF) is a description format to describe abstract data models.
+SDF conveys abstract meta-model for IoT device affordances, behavior, and context
+decoupled from network bindings and is protocol-agile."
+    url: "/sdflanguage/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - #image_path: /assets/images/mm-free-feature.png
