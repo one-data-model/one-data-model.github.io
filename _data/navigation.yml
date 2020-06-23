@@ -1,6 +1,8 @@
 main:
   - title: "Overview"
     url: /overview/
+  - title: "SDF"
+    url: /sdflanguage/
   - title: "Faq"
     url: /faq/
   - title: "About"
