@@ -8,6 +8,8 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 toc_sticky : false
+sidebar:
+  nav: "SDF"
 ---
 ## Semantic Definition Format
 

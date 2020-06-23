@@ -10,3 +10,15 @@ main:
     url: /faq/
   - title: "About"
     url: /about/
+    
+    
+
+SDF:
+    - title: "SDF language"
+        url: https://www.ietf.org/id/draft-onedm-t2trg-sdf-00.html
+    - title: "Terminology"
+        url: /terminology/
+    - title: "Examples in playground"
+        url: https://github.com/one-data-model/playground
+    - title: "Tools"
+        url: https://github.com/one-data-model/tools
