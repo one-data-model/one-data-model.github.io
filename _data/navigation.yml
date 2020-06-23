@@ -3,6 +3,9 @@ main:
     url: /overview/
   - title: "SDF"
     url: /sdflanguage/
+    children:
+      - title: "Terminology"
+        url: /terminology/
   - title: "Faq"
     url: /faq/
   - title: "About"
