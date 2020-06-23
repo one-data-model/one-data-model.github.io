@@ -4,14 +4,15 @@ title: Semantic Definition Format
 overview: true
 permalink: /sdflanguage/
 
+sidebar:
+  nav: "sdf_nav"
+
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
-toc_sticky : false
-sidebar:
-  nav: "SDF"
+toc_sticky : true
 ---
-## Semantic Definition Format
+## Introduction
 
 Semantic Definition Format (SDF) is a new description format to describe abstract data models.
 SDF conveys abstract meta-model for IoT device affordances, behavior, and context

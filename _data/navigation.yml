@@ -13,7 +13,7 @@ main:
     
     
 
-SDF:
+sdf_nav:
     - title: "SDF language"
         url: https://www.ietf.org/id/draft-onedm-t2trg-sdf-00.html
     - title: "Terminology"
