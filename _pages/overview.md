@@ -62,6 +62,25 @@ A rough indication of the strengths of the data models is listed below:
 | Security            | Z-Wave                   |
 | Sensors             | Bluetooth SIG/ZigBee     |
 
+## The benefits
+
+
+OneDM SDF will make it easy for device vendors and SDOs to adopt a common language and definition format.
+If oneDM get descriptions of devices in a consistent format from diverse SDOs and vendors, the industry can more easily create adapter code and UI elements.
+Device vendors will begin to re-use the definitions of affordances that already exist rather than create new ones
+If the devices from diverse organizations have affordances that work in similar ways, we only need to adapt protocols and can re-use the UI elements.
+Existing rules, scenes, and behaviors will work correctly with new devices from a different SDO or vendor.
+When the interaction affordances are standardized, 
+the customer experience will be improved as well-known and popular ways of interacting with device affordances emerge.
+Open source tools for OneDM and SDF will emerge as more people adopt OneDM.
+
+- Normalized device description to make it easy to create the adapter and driver code to integrate new devices.
+- Normalization of device models result in common platform code for rules. scenes, etc.
+- Normalization of the data and interaction models for improved customer experience.
+- Ultimate convergence of protocols, fewer adapter codes needed.
+- Reuse of the SDF language for ST internal models.
+
+
 ## The description format
 
 To achieve that goal the first step to take is to have a common way how to write down a model.
