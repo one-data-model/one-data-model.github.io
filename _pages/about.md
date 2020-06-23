@@ -17,9 +17,23 @@ By far, the most frequently cited challenge was the inconsistency and lack of in
 
 One Data Model (OneDM) was started in early 2019, consisting of several IoT SDOs (Standards Development Organizations) and IoT device and platform vendors, operating under a broad, multi-party liaison agreement. 
 
-## Meeting information
+## Meeting minutes
 
 Meeting information of the [2020 Spring conference][].
+
+
+## Meeting information
+
+Meetings will be made public from 13 July 2020 onwards.
+
+
+## Contact information
+
+At this moment the contact information is through the liasion group.
+
+Email of the oneDM liasion group: onedm@iotliaison.org 
+
+Email of the oneDM liasion group chair: onedm-chair@iotliaison.org
 
 
 
