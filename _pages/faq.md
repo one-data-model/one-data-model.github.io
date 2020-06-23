@@ -7,6 +7,7 @@ layout: single
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+toc_sticky : true
 ---
 
 ## Frequently Asked Questions for One Data Model (OneDM)

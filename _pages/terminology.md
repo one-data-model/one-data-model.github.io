@@ -4,9 +4,13 @@ title: Terminology
 overview: true
 permalink: /terminology/
 
+sidebar:
+  nav: "sdf_nav"
+
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
+toc_sticky : true
 ---
 # Terminology
 
