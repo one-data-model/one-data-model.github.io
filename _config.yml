@@ -18,7 +18,7 @@ title_separator          : "-"
 subtitle                 : "Solving the problem of lack of a common data model for IoT and IoT devices"
 
 
-#logo: /assets/images/IoTivity-logo.png
+logo: /assets/images/onedm.png
 #email: iotivity-dev@lists.iotivity.org
 description: >- # this means to ignore newlines until "baseurl:"
   One Data Model 
