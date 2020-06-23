@@ -78,8 +78,6 @@ Open source tools for OneDM and SDF will emerge as more people adopt OneDM.
 - Normalization of device models result in common platform code for rules. scenes, etc.
 - Normalization of the data and interaction models for improved customer experience.
 - Ultimate convergence of protocols, fewer adapter codes needed.
-- Reuse of the SDF language for ST internal models.
-
 
 ## The description format
 
