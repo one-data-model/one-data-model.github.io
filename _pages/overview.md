@@ -3,6 +3,7 @@ layout: single
 title: Overview
 overview: true
 permalink: /overview/
+classes: wide
 
 toc: true
 toc_label: "Table of Contents"
