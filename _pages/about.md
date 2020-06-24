@@ -32,9 +32,9 @@ Meetings will be made public from 13 July 2020 onwards.
 
 At this moment the contact information is through the liasion group.
 
-Email of the oneDM liasion group: onedm@iotliaison.org 
+Email of the oneDM liasion group: [onedm@iotliaison.org](mailto:onedm@iotliaison.org)
 
-Email of the oneDM liasion group chair: onedm-chair@iotliaison.org
+Email of the oneDM liasion group chair: [onedm-chair@iotliaison.org](mailto:onedm-chair@iotliaison.org)
 
 
 

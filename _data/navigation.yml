@@ -15,7 +15,7 @@ sdf_nav:
     - title: More Information
       children:
         - title: "SDF language"
-          url: https://www.ietf.org/id/draft-onedm-t2trg-sdf-00.html
+          url: https://onedm.org/SDF/sdf.html
         - title: "Terminology"
           url: /terminology/
         - title: "Examples in playground"
