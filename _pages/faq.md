@@ -40,7 +40,7 @@ The second phase is the normalization of IoT data models to select a common set 
 
 The purpose of OneDM is not to compete with any existing standards body, but rather to provide a common set of tools and models that can be used by all bodies and organizations. Rather than attempting to provide a "better" alternative, OneDM sets out to bring forward the best of several contributing organizations, and then provide the resulting converged models and underlying tools back for everyone to use.
 
-The tools and formats developed by OneDM are a collaborative work product of several IoT organizations and embody the best thinking in IoT data modeling, enabled by the contributor's agreement to stop trying to compete on data models and make it easier for our collective markets to develop and grow based on a common interoperable technology. We decided to collaborate where there is little differentiation to be exploited, and compete where we can find more value in developing new system features.
+The tools and formats developed by OneDM are a collaborative work product of several IoT organizations and embody the best thinking in IoT data modeling. This is enabled by the contributors' agreement to make it easier for our collective markets to develop and grow based on a common interoperable technology instead of trying to compete on data models. We decided to collaborate where there is little differentiation to be exploited, and compete where we can find more value in developing new system features.
 
 OneDM will be open for anyone to join and contribute, and all of the tools and models will be available under open source license terms.
 
