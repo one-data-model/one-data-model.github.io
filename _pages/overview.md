@@ -39,13 +39,13 @@ The One Data Model Liaison Group will define a single application data model to 
 ## Process
 
 The process established was:
-Create a common representation language for existing IoT data and interaction models.
-Enable contribution of the best existing models across all participating organizations.
-Collect a set of representative models for a "pressure test" of the language.
-Convert to the new language and note any gaps.
-Organizations contribute models for evaluation.
-Process for selecting a single model per function, e.g. lighting, door lock, thermostat
-Publication of selected models.
+- Create a common representation language for existing IoT data and interaction models.
+- Enable contribution of the best existing models across all participating organizations.
+- Collect a set of representative models for a "pressure test" of the language.
+- Convert to the new language and note any gaps.
+- Organizations contribute models for evaluation.
+- Process for selecting a single model per function, e.g. lighting, door lock, thermostat.
+- Publication of selected models.
 
 During this process it was identified that not too much overlap of models by various organizations.
 A rough indication of the strengths of the data models is listed below:
@@ -75,7 +75,7 @@ the customer experience will be improved as well-known and popular ways of inter
 Open source tools for OneDM and SDF will emerge as more people adopt OneDM.
 
 - Normalized device description to make it easy to create the adapter and driver code to integrate new devices.
-- Normalization of device models result in common platform code for rules. scenes, etc.
+- Normalization of device models result in common platform code for rules, scenes, etc.
 - Normalization of the data and interaction models for improved customer experience.
 - Ultimate convergence of protocols, fewer adapter codes needed.
 
