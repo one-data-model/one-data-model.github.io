@@ -24,11 +24,11 @@ One Data Model (OneDM) was started in early 2019, consisting of several IoT SDOs
 
 OneDM is solving the problem of lack of a common data model for IoT and IoT devices. Each IoT standards organization, and many IoT platform vendors, have created their own version of an IoT data model framework, each with a bespoke meta-model and representation language. Some have used XML serialization, some JSON, and some have created formats based on other data languages and tools, such as OpenAPI (Swagger).
 
-Despite the divergence of representation languages, the underlying meta-information-models are strikingly similar, conceptually and semantically. They mostly vary syntactically and use diverse vocabulary constructs to represent similar concepts. The devices and functionality being modeled is also very similar and is described at a similar level of abstraction across the field.
+Despite the divergence of representation languages, the underlying meta-information-models are strikingly similar, conceptually and semantically. They mostly vary syntactically and use diverse vocabulary constructs to represent similar concepts. The devices and functionality being modeled are also very similar and are described at a similar level of abstraction across the field.
 
 The OneDM group decided to undertake a comprehensive review of the state of the art in IoT data models, to see if a common data model could be based on a down-selection from the existing IoT data models. While many of the models that were evaluated have strong suits, it was concluded that no single data model was sufficient to form the basis of a common IoT data model across industry. The more mature models have insufficient coverage across application domains, and the tools and formats being used are not well enough developed in any one area to meet the broad set of requirements.
 
-Based on the industry review, the OneDM group decided to split the work into two phases, first the development of a common modeling framework and language that can describe and represent all of the existing IoT data models, with an extensible architecture, good support for modern tools, and friendly for developers. In this phase, we have subjected the proposed language and framework to a pressure test, representing models from diverse sources to identify common optimizations and common design patterns that need to be supported.
+Based on the industry review, the OneDM group decided to split the work into two phases, first the development of a common modeling framework and language that can describe and represent all of the existing IoT data models with an extensible architecture, offering good support for modern tools, and being friendly for developers. In this phase, we have subjected the proposed language and framework to a pressure test, representing models from diverse sources to identify common optimizations and common design patterns that need to be supported.
 
 In the first phase, we enable diverse IoT data models to be contributed in a common format, with the features and limitations they come with from their parent organizations. All of the contribution organizations have agreed to make their contributions under the BSD 3-Clause open source license to enable OneDM converged models to be derived works of the original contributions.
 
@@ -65,7 +65,7 @@ In this way the in and out licence of the acceptance process will have the same 
 
 OneDM, as an organization, is governed by a set of participants that operate under a broad liaison agreement. As an organization, you can join OneDM and participate in the liaison activities subject to the liaison agreement. This includes deciding on governance policies.
 
-As an independent organization or developer, you can participate in the open OneDM meetings and teleconferences, submit github issues and make pull requests, and in general contribute freely to the development of OneDM as an open source community project subject to OneDM project governance policies.
+As an independent organization or developer, you can participate in the open OneDM meetings and teleconferences, submit Github issues and make pull requests, and in general contribute freely to the development of OneDM as an open source community project subject to OneDM project governance policies.
 
 ## Frequently Asked Questions for the Semantic Definition Format (SDF)
 
@@ -88,7 +88,7 @@ The OneDM prior art review considered at least 6 different languages and formats
 - SDF is payload-format agnostic and only defines constraints on individual data items (no data schemas for payloads)
 - WoT TD is meant to describe instances of things and contains payload schemas and protocol bindings for affordances that might be named in SDF definitions.
 - WoT TD is not meant to provide the application type vocabularies; SDF can define the vocabularies and provide URI references as semantic anchors for terms that are used in WoT TDs.
-- SDF can provide the semantic anchors for abstract application types (on/off switch. motion sensor) and TD can provide the instance definitions, payload schemas, and protocol bindings with network addresses for the affordances.
+- SDF can provide the semantic anchors for abstract application types (e.g., on/off switch or motion sensor) and TD can provide the instance definitions, payload schemas, and protocol bindings with network addresses for the affordances.
 
 ### Why is SDF represented in JSON and not JSON-LD for better semantic integration?
 
