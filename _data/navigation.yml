@@ -6,7 +6,7 @@ main:
     children:
       - title: "Terminology"
         url: /terminology/
-  - title: "Faq"
+  - title: "FAQ"
     url: /faq/
   - title: "About"
     url: /about/
