@@ -12,11 +12,15 @@ toc_sticky : true
 
 ## Relevant info
 
-# Rest full
+### Rest-full
 
 https://en.wikipedia.org/wiki/Representational_state_transfer
 
 ## Relevant Standards and Professional Organizations
+
+### Bluetooth Sig
+
+https://www.bluetooth.com/
 
 ### IETF CoRE Working Group
 
@@ -58,6 +62,10 @@ http://openconnectivity.org/
 ### W3C Web of Things Interest Group and Working Group
 
 https://www.w3.org/WoT/
+
+### Zigbee
+
+https://zigbeealliance.org/
 
 <!--  LocalWords:  affordances namespace schemas SDF SDOs ZigBee SDO
  -->
