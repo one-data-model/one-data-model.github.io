@@ -1,0 +1,19 @@
+@startuml
+
+[*] --> exploratory : pull request validation "fail"
+exploratory --> [*] : withdrawn
+exploratory : proposal is not compliant with SDF
+exploratory : proposal contains new SDF feature
+
+
+[*] --> playground : pull request validation "ok"
+exploratory -> playground : SDF compliant
+playground --> [*] : withdrawn
+
+playground : proposal is  compliant with SDF
+playground : proposal is compliant with recommendations
+
+playground --> registry : accepted
+registry : consolidated models
+
+@enduml
