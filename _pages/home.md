@@ -14,9 +14,9 @@ excerpt: >
   The first phase result is the Semantic Definition Format (SDF) and related tools and frameworks to manage the contribution of data models from diverse sources, and collection of these data models in a single place.<br/>
 feature_row:
   - #image_path: /assets/images/mm-customizable-feature.png
-    alt: "one DM overview"
-    title: "one DM overview"
-    excerpt: "one DM overview. An overview of the history and initial results of oneDM."
+    alt: "OneDM overview"
+    title: "OneDM overview"
+    excerpt: "OneDM overview. An overview of the history and initial results of OneDM."
     url: "/overview/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
