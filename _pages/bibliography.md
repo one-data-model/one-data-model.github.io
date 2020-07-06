@@ -12,6 +12,17 @@ toc_sticky : true
 
 ## Relevant info
 
+### CDDL
+
+Concise Data Definition Language (CDDL): A Notational Convention
+to Express Concise Binary Object Representation (CBOR) and JSON Data Structures
+
+https://tools.ietf.org/html/rfc8610
+
+### JSON schema
+
+https://json-schema.org/understanding-json-schema/index.html
+
 ### Rest-full
 
 https://en.wikipedia.org/wiki/Representational_state_transfer
@@ -66,6 +77,10 @@ http://openconnectivity.org/
 ### W3C Web of Things Interest Group and Working Group
 
 https://www.w3.org/WoT/
+
+web of things descriptions:
+
+https://www.w3.org/TR/wot-thing-description/
 
 ### Zigbee
 
