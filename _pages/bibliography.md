@@ -38,7 +38,7 @@ https://openconnectivity.org/developer/specifications/fairhair/
 
 https://project-haystack.org/
 
-## Open API specification
+### Open API specification
 
 The Open API specification [OAS][] is a rest full API description method.
 This can be used to define end points and payloads per request/response.
