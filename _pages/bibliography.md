@@ -16,46 +16,45 @@ toc_sticky : true
 
 Concise Data Definition Language (CDDL): A Notational Convention
 to Express Concise Binary Object Representation (CBOR) and JSON Data Structures
-
-https://tools.ietf.org/html/rfc8610
+[CDDL](https://tools.ietf.org/html/rfc8610)
 
 ### JSON schema
 
-https://json-schema.org/understanding-json-schema/index.html
+[JSON](https://json-schema.org/understanding-json-schema/index.html)
 
 ### Rest-full
 
-https://en.wikipedia.org/wiki/Representational_state_transfer
+[Restfull](https://en.wikipedia.org/wiki/Representational_state_transfer)
 
 ## Relevant Standards and Professional Organizations
 
 ### Bluetooth Sig
 
-https://www.bluetooth.com/
+[BLE](https://www.bluetooth.com/)
 
 ### Fairhair
 
-https://openconnectivity.org/developer/specifications/fairhair/
+[Fairhair](https://openconnectivity.org/developer/specifications/fairhair/)
 
 ### IETF CoRE Working Group
 
-https://datatracker.ietf.org/wg/core/about/
+[IETF Core working group](https://datatracker.ietf.org/wg/core/about/)
 
 ### IETF T2TRG
 
-https://datatracker.ietf.org/rg/t2trg/about/
+[IETF Things to Thing Research Group](https://datatracker.ietf.org/rg/t2trg/about/)
 
 ### iotschema
 
-https://github.com/iot-schema-collab
+[iotschema](https://github.com/iot-schema-collab)
 
 ### JSON
 
-https://www.json.org/json-en.html
+[JSON](https://www.json.org/json-en.html)
 
 ### Project Haystack
 
-https://project-haystack.org/
+[Haystack](https://project-haystack.org/)
 
 ### Open API specification
 
@@ -64,27 +63,25 @@ This can be used to define end points and payloads per request/response.
 
 ### OMA LWM2M
 
-http://openmobilealliance.org/iot/lightweight-m2m-lwm2m
+[OMA LWM2M](http://openmobilealliance.org/iot/lightweight-m2m-lwm2m)
 
 ### OneM2M
 
-http://www.onem2m.org/
+[OneM2M](http://www.onem2m.org/)
 
 ### Open Connectivity Foundation
 
-http://openconnectivity.org/
+[OCF](http://openconnectivity.org/)
 
 ### W3C Web of Things Interest Group and Working Group
 
-https://www.w3.org/WoT/
+[Web of Things](https://www.w3.org/WoT/)
 
-web of things descriptions:
-
-https://www.w3.org/TR/wot-thing-description/
+Web of things [descriptions](https://www.w3.org/TR/wot-thing-description/).
 
 ### Zigbee
 
-https://zigbeealliance.org/
+[Zigbee](https://zigbeealliance.org/)
 
 <!--  LocalWords:  affordances namespace schemas SDF SDOs ZigBee SDO
  -->
