@@ -42,6 +42,9 @@ The aim is that all models in the
 [playground][] are syntactically valid SDF files, while the other
 repositories tolerate (or deliberately contain) deviations.
 
+The process is captured in the following diagram:
+![process flow](/assets/images/process.png "process")
+
 ### Selection process
 
 The creation of the selection process is work in progress.

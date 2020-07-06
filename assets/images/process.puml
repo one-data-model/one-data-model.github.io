@@ -5,13 +5,19 @@ exploratory --> [*] : withdrawn
 exploratory : proposal is not compliant with SDF
 exploratory : proposal contains new SDF feature
 
+exploratory --> exploratory : rework
+
 
 [*] --> playground : pull request validation "ok"
 exploratory -> playground : SDF compliant
 playground --> [*] : withdrawn
 
-playground : proposal is  compliant with SDF
+playground --> playground : rework
+
+playground : proposal is  compliant with current version of SDF
 playground : proposal is compliant with recommendations
+
+registry -> playground : new addition to existing model
 
 playground --> registry : accepted
 registry : consolidated models
