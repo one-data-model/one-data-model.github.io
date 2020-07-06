@@ -22,6 +22,10 @@ https://en.wikipedia.org/wiki/Representational_state_transfer
 
 https://www.bluetooth.com/
 
+### Fairhair
+
+https://openconnectivity.org/developer/specifications/fairhair/
+
 ### IETF CoRE Working Group
 
 https://datatracker.ietf.org/wg/core/about/
@@ -34,9 +38,9 @@ https://datatracker.ietf.org/rg/t2trg/about/
 
 https://github.com/iot-schema-collab
 
-### Fairhair
+### JSON
 
-https://openconnectivity.org/developer/specifications/fairhair/
+https://www.json.org/json-en.html
 
 ### Project Haystack
 
