@@ -66,6 +66,10 @@ What needs to be agreed before the actual down selection of models can take plac
 | [exploratory][] | playground of non-official data models that explore new SDF features or new ways of using SDF. Not always conforming to current SDF validation syntax. |
 | [unit_test][] | playground of test models to verify the SDF language. |
 
+OneDM <sup>trademark</sup>
+
+[logo]: /assets/images/onedm-tm.png 
+
 [SDF]: https://github.com/one-data-model/SDF
 [tools]: https://github.com/one-data-model/tools
 [playground]: https://github.com/one-data-model/playground
