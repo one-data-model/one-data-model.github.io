@@ -1,17 +1,21 @@
 ---
 layout: single
-title: Data model usage
+title: SDF Conversion
 overview: true
-permalink: /usage/
+permalink: /conversion/
 
+sidebar:
+  nav: "sdf_nav"
+  
 toc: true
 toc_label: Table of Contents
 toc_icon: cog
 toc_sticky : true
 ---
 
-## IPSO
+## Introduction
 
+This page shows conversion tooling that relates to SDF.
 
 ## OCF
 
@@ -30,6 +34,28 @@ The [OCF SDFtooling][] publicly available.
 | [OAS2.0 files][]   | Information for the standardization work for IETF meeting 108        |
 | [playground][]     | OneDM Playground         |
 
+
+## IPSO
+
+Tooling created and hosted by Ericsson Research.
+Tooling to:
+
+- convert from IPSO to SDF
+- convert SDF to IPSO
+
+Conversions implemented in such way that the oid mapping is retained in the conversion.
+
+
+| repo name          | Description                                                          |
+|--------------------|----------------------------------------------------------------------|
+| [IPSO-ODM][] | conversion tooling between OAS2.0 and SDF |
+
+
+<!--  LocalWords:  
+ -->
 [OCF SDFtooling]: https://github.com/openconnectivityfoundation/SDFtooling
 [OAS2.0 files]: https://github.com/openconnectivityfoundation/IoTDataModels
 [playground]: https://github.com/one-data-model/playground
+
+
+[IPSO-ODM]: https://github.com/EricssonResearch/ipso-odm

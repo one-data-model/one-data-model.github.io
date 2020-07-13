@@ -22,7 +22,8 @@ sdf_nav:
           url: https://github.com/one-data-model/playground
         - title: "Tools"
           url: https://github.com/one-data-model/tools
-
+        - title: "SDF Conversion"
+          url: /conversion/
 
 about_nav:
     - title: More Information
