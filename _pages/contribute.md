@@ -71,9 +71,9 @@ What needs to be agreed before the actual down selection of models can take plac
 
 ---
 
-OneDM <sup>tm</sup>
+OneDM<sup>tm</sup>
 
-![logo tm]("assets/images/onedm-tm.png")
+![logo tm]("/assets/images/onedm-tm.png")
 
 
 [SDF]: https://github.com/one-data-model/SDF
