@@ -31,3 +31,5 @@ about_nav:
           url: /about/
         - title: "Endorsing and Contributing organizations"
           url: /endorse/
+        - title: "Contribute Models"
+          url: /contribute/

@@ -4,6 +4,9 @@ title: Contribute to OneDM
 overview: true
 permalink: /contribute/
 
+sidebar:
+  nav: "about_nav"
+
 toc: true
 toc_label: Table of Contents
 toc_icon: cog
