@@ -22,7 +22,7 @@ IOT Smart Objects created at the IPSO Alliance,
 and developer tools and resources that facilitate the development of products based on LightweightM2M (LwM2M), 
 the IoT industry’s protocol for device management.
 
-Read [here](/assets/pdfs/OMA-LS_1091-OMA_Endorsement_of_OneDM_work-20200622-A_2.pdf) the endorsement of the work executed by OneDM by Oma SpecWorks.
+Read [here the endorsement](/assets/pdfs/OMA-LS_1091-OMA_Endorsement_of_OneDM_work-20200622-A_2.pdf) of the work conducted by OneDM by Oma SpecWorks.
 
 ### Open Connectivity Foundation
 
@@ -45,7 +45,7 @@ The following organization supplied data models in SDF (under BSD-3 license) to 
 | [Zigbee][]                | [playground][]   | 
 
 [Bluetooth]: https://www.bluetooth.com/
-[OCF]: https://github.com/one-data-model/SDF
+[OCF]: https://openconnectivity.org/
 [OMA SpecWorks]: https://www.omaspecworks.org/
 [Zigbee]: https://zigbeealliance.org/
 
