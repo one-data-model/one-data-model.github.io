@@ -33,3 +33,12 @@ about_nav:
           url: /endorse/
         - title: "Contribute Models"
           url: /contribute/
+          
+          
+faq_nav:
+    - title: More Information
+      children:
+        - title: "faq"
+          url: /faq/
+        - title: "Bibliography"
+          url: /bib/
