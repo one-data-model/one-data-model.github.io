@@ -4,6 +4,9 @@ title: "About"
 overview: false
 layout: single
 
+sidebar:
+  nav: "about_nav"
+
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"

@@ -22,3 +22,12 @@ sdf_nav:
           url: https://github.com/one-data-model/playground
         - title: "Tools"
           url: https://github.com/one-data-model/tools
+
+
+about_nav:
+    - title: More Information
+      children:
+        - title: "About"
+          url: https://onedm.org/about.html
+        - title: "Endorsing and Contributing organizations"
+          url: https://onedm.org/endorse.html
