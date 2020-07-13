@@ -8,12 +8,12 @@ header:
   #actions:
   #  - label: "<i class='fas fa-download'></i> Install now"
   #    url: "/docs/quick-start-guide/"
-excerpt: >
+excerpt: 
   <small>
   OneDM is solving the problem of lack of a common data model for IoT and IoT devices. 
   Each IoT standards organization, and many IoT platform vendors, have created their own version of an IoT data model framework, each with a bespoke meta-model and representation language.<br/>
   OneDM is solving this issue by creating an infrastructure to create abstract data models.
-.<br/>
+<br/>
 feature_row:
   - #image_path: /assets/images/mm-customizable-feature.png
     alt: "OneDM overview"
