@@ -28,6 +28,6 @@ about_nav:
     - title: More Information
       children:
         - title: "About"
-          url: https://onedm.org/about.html
+          url: /about/
         - title: "Endorsing and Contributing organizations"
-          url: https://onedm.org/endorse.html
+          url: /endorse/
