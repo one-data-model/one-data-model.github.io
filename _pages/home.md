@@ -10,8 +10,10 @@ header:
   #    url: "/docs/quick-start-guide/"
 excerpt: >
   <small>
-  OneDM is solving the problem of lack of a common data model for IoT and IoT devices. Each IoT standards organization, and many IoT platform vendors, have created their own version of an IoT data model framework, each with a bespoke meta-model and representation language.<br/>
-  The first phase result is the Semantic Definition Format (SDF) and related tools and frameworks to manage the contribution of data models from diverse sources, and collection of these data models in a single place.<br/>
+  OneDM is solving the problem of lack of a common data model for IoT and IoT devices. 
+  Each IoT standards organization, and many IoT platform vendors, have created their own version of an IoT data model framework, each with a bespoke meta-model and representation language.<br/>
+  OneDM is solving this issue by creating an infrastructure to create abstract data models.
+.<br/>
 feature_row:
   - #image_path: /assets/images/mm-customizable-feature.png
     alt: "OneDM overview"
@@ -32,7 +34,7 @@ decoupled from network bindings and is protocol-agile."
   - #image_path: /assets/images/mm-free-feature.png
     alt: "FAQ"
     title: "FAQ"
-    excerpt: "Frequently asked questions"
+    excerpt: "Frequently asked questions about OneDM, SDF the abstract data modeling definition."
     url: "/faq/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
