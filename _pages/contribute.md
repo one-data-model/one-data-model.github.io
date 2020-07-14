@@ -31,6 +31,11 @@ After the tagging:
 
 - Move the example from the [exploratory][] to the [playground][] repo.
 
+## License 
+
+All model contributions made to the OneDM repositories will be under BSD-3 license.
+All contributions can have different copyrights, mentioning the contributing company, organization or person. During the selection process it is anticipated that the model might change. This is allowed due to the BSD-3 license. When doing so the copyright will be extended by the group of experts that required the change.
+
 ## Contribute Models
 
 To make sure that SDF is up to the task to convey the different models
@@ -39,8 +44,7 @@ created, with models contributed by various organizations in SDF format.
 Many of these models are automatically generated from the source materials of the participating organizations.
 Most of the participating organizations have created tooling that supports converting their models to and from SDF.
 Full round tripping is available to verify if the SDF syntax can convey all the needed information.
-The [playground][], [exploratory][], and [unit_test][] repositories have a CI system in place that analyzes
-pull requests and provides reports with respect to their syntax usage.
+The [playground][], [exploratory][], and [unit_test][] repositories have a CI system in place that analyzes pull requests and provides reports with respect to their syntax usage.
 The aim is that all models in the
 [playground][] are syntactically valid SDF files, while the other
 repositories tolerate (or deliberately contain) deviations.
@@ -71,8 +75,8 @@ What needs to be agreed before the actual down selection of models can take plac
 
 ---
 
-OneDM<sup>tm</sup>
-
+OneDM<sup>TM</sup>  
+one data model<sup>TM</sup>
 ![logo tm](/assets/images/onedm-tm.png)
 
 
