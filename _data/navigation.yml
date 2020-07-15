@@ -39,7 +39,7 @@ about_nav:
 faq_nav:
     - title: More Information
       children:
-        - title: "faq"
+        - title: "FAQ"
           url: /faq/
         - title: "Bibliography"
           url: /bib/
