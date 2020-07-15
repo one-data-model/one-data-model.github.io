@@ -22,7 +22,7 @@ IOT Smart Objects created at the IPSO Alliance,
 and developer tools and resources that facilitate the development of products based on LightweightM2M (LwM2M), 
 the IoT industry’s protocol for device management.
 
-Read [here the endorsement](/assets/pdfs/OMA-LS_1091-OMA_Endorsement_of_OneDM_work-20200622-A_2.pdf) of the work conducted by OneDM by Oma SpecWorks.
+Read [here the endorsement](/assets/pdfs/OMA-LS_1091-OMA_Endorsement_of_OneDM_work-20200622-A_2.pdf) of the work conducted by OneDM by [OMA SpecWorks][].
 
 ### Open Connectivity Foundation
 
@@ -31,7 +31,7 @@ by delivering a standard communications platform, a bridging specification, an o
 regardless of form factor, operating system, service provider, transport technology or ecosystem.
 The industry leading companies involved in OCF believe that secure and reliable device discovery and connectivity is a foundational component to enable IoT.
 
-Read [here the endorsement](/assets/pdfs/OCF-LS-oneDM_2020-07-14.pdf) of the work conducted by OneDM by Oma SpecWorks.
+Read [here the endorsement](/assets/pdfs/OCF-LS-oneDM_2020-07-14.pdf) of the work conducted by OneDM by [OCF][].
 
 ## Contributing organizations
 
