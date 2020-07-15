@@ -31,7 +31,7 @@ by delivering a standard communications platform, a bridging specification, an o
 regardless of form factor, operating system, service provider, transport technology or ecosystem.
 The industry leading companies involved in OCF believe that secure and reliable device discovery and connectivity is a foundational component to enable IoT.
 
-Read here the endorsement of OneDM by OCF.
+Read [here the endorsement](/assets/pdfs/OCF-LS-oneDM_2020-07-14.pdf) of the work conducted by OneDM by Oma SpecWorks.
 
 ## Contributing organizations
 
