@@ -27,7 +27,9 @@ Meeting information of the [2020 Spring conference][].
 
 ## Meeting information
 
-Meetings will be made public from 13 July 2020 onwards.
+The meetings are conducted in public.
+Meeting are held on Mondays 14:00 BST.
+See for dial-in details the "One Data Model" group on [iotliaison][] Causeway.
 
 ## Contact information
 
