@@ -10,7 +10,7 @@ header:
   #    url: "/docs/quick-start-guide/"
 excerpt: <small> Each IoT standards organization,
   and many IoT platform vendors, have created their own version of an IoT data model framework, each with a bespoke meta-model and representation language.<br/> 
-  To start alignment existing data models should be described in the same syntax. 
+  To start alignment of existing data models, the models should be described in the same format. 
   Hence, the Semantic Definition Format (SDF) has been created. SDF and related tools and frameworks can manage the contribution of data models from diverse sources, and collection of these data models in a single place.<br/>
 feature_row:
   - #image_path: /assets/images/mm-customizable-feature.png
