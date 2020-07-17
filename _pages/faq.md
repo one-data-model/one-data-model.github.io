@@ -102,6 +102,12 @@ The OneDM prior art review considered at least 6 different languages and formats
 
 The relationship between SDF [terminology][] and other SDO terminology is explained.
 
+### Is there a tutorial?
+
+A tutorial is available on [![youtube](https://img.youtube.com/vi/sTrqa5jYVKo/0.jpg)](https://www.youtube.com/watch?v=sTrqa5jYVKo)
+
+<!--  LocalWords:  affordances namespace schemas SDF SDOs ZigBee SDO
+ -->
 
 [SDF]: https://github.com/one-data-model/SDF
 [tools]: https://github.com/one-data-model/tools
