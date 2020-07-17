@@ -1,0 +1,29 @@
+@startuml
+
+class sdfThing 
+
+class sdfObject
+
+class sdfProperty
+class sdfAction
+class sdfEvent
+
+class sdfData
+
+sdfThing --> "0+" sdfThing : hasThing
+
+sdfThing --> "0+" sdfObject : hasObject
+
+sdfObject --> "0+" sdfProperty : hasProperty
+sdfObject --> "0+" sdfAction : hasAction
+sdfObject --> "0+" sdfEvent : hasEvent
+
+sdfProperty --> "1" sdfData : isInstanceOf
+
+sdfAction --> "1+" sdfData : hasInputData
+sdfAction --> "0+" sdfData : hasOutputData
+
+sdfEvent --> "1+" sdfData : hasOutputData
+
+
+@enduml
