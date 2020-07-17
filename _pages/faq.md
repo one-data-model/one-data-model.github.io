@@ -102,9 +102,18 @@ The OneDM prior art review considered at least 6 different languages and formats
 
 The relationship between SDF [terminology][] and other SDO terminology is explained.
 
-### Is there a tutorial?
+### Is there a video tutorial?
 
 A tutorial is available on [![youtube](https://img.youtube.com/vi/sTrqa5jYVKo/0.jpg)](https://www.youtube.com/watch?v=sTrqa5jYVKo)
+Note that the tutorial uses the old prefix odm instead of sdf.
+
+### Is there a presentation available?
+
+<object data="/assets/pdfs/SDF-Semantics_2020-07-17b.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/assets/pdfs/SDF-Semantics_2020-07-17b.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/pdfs/SDF-Semantics_2020-07-17b.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 <!--  LocalWords:  affordances namespace schemas SDF SDOs ZigBee SDO
  -->
