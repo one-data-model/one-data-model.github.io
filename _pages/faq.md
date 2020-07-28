@@ -109,9 +109,9 @@ Note that the tutorial uses the old prefix odm instead of sdf.
 
 ### Is there a presentation available?
 
-<object data="/assets/pdfs/SDF-Semantics_2020-07-17b.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="/assets/pdfs/SDF-Semantics_2020-07-17b.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/pdfs/SDF-Semantics_2020-07-17b.pdf">Download PDF</a>.</p>
+<object data="/assets/pdfs/SDF-Semantics_2020-07-18.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/assets/pdfs/SDF-Semantics_2020-07-18.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/pdfs/SDF-Semantics_2020-07-18.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
