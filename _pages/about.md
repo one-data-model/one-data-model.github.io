@@ -51,8 +51,24 @@ Email of the OneDM liaison (under NDA) group: [onedm@iotliaison.org](mailto:oned
 
 Email of the OneDM liaison (under NDA) group chair: [onedm-chair@iotliaison.org](mailto:onedm-liaison-chair@iotliaison.org)
 
+
+### Contact information IETF ASDF
+
+IETF [ASDF][] is the work group that is governing the work on SDF.
+
+Progress and versions can be found at [IETF SDF][].
+
+The [SDF language][] is IETF Github containing SDF syntax.
+
+
 <!--  LocalWords:  affordances namespace schemas SDF SDOs ZigBee SDO
  -->
+
+[SDF language]: https://github.com/ietf-wg-asdf/SDF
+[IETF SDF]: https://datatracker.ietf.org/doc/draft-ietf-asdf-sdf/
+[ASDF]: https://datatracker.ietf.org/wg/asdf/about/
+ 
+ 
 [2020 Spring conference]: https://github.com/one-data-model/Conference2020
 [iotliaison]: https://iotliaison.org/
 [Zigbee Alliance]: https://zigbeealliance.org/
