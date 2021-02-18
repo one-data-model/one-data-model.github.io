@@ -31,6 +31,8 @@ After the tagging:
 
 - Move the example from the [exploratory][] to the [playground][] repo.
 
+The actual definition of the [SDF language][] is done by [ASDF][] in IETF.
+
 ## License 
 
 All model contributions made to the OneDM repositories will be under BSD-3 license.
@@ -78,6 +80,12 @@ What needs to be agreed before the actual down selection of models can take plac
 OneDM<sup>TM</sup>  
 one data model<sup>TM</sup>
 ![logo tm](/assets/images/onedm-tm.png)
+
+
+
+[SDF language]: https://github.com/ietf-wg-asdf/SDF
+[IETF SDF]: https://datatracker.ietf.org/doc/draft-ietf-asdf-sdf/
+[ASDF]: https://datatracker.ietf.org/wg/asdf/about/
 
 
 [SDF]: https://github.com/one-data-model/SDF
