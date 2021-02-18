@@ -129,7 +129,7 @@ Next steps for OneDM (conducted in parallel):
 | repo name       | Type      | Description                                             |
 |-----------------|-----------|---------------------------------------------------------|
 | [SDF][]         | Language   |  Semantic Definition Format (SDF) for Data and Interactions of Things |
-| [ASDF][]        | Information for the standardization work for IETF ASDF workgroup     |
+| [ASDF][]        | Language work group | Information for the standardization work for IETF ASDF workgroup     |
 | [IETF108][]     | Language   | Information for the standardization work for IETF meeting 108        |
 | [tools][]       | Language   | SDF tools                                                            |
 | [playground][]  | Data Models | Playground of non-official data models that could be OneDM data models, but aren't yet. Correct SDF syntax.  |
