@@ -41,7 +41,7 @@ Using JSON as a representation language has a few advantages:
   of these data description languages.  SDF 1.0 uses both CDDL
   ([RFC8610][]) and the formats proposed at json-schema.org for this.
 - The structure of the data themselves can be modelled in similar
-  ways; [SDF language][] 1.0 borrows specific elements of the json-schema.org
+  ways; [SDF language][] borrows specific elements of the json-schema.org
   proposals for this.
 - Abundant tools and libraries are available to produce/consume JSON,
   so tooling to work with SDF models can be created efficiently.
@@ -75,6 +75,7 @@ Next steps for SDF development (conducted in parallel):
 | repo name       | Description                                                          |
 |-----------------|----------------------------------------------------------------------|
 | [SDF][]         | Semantic Definition Format (SDF) for Data and Interactions of Things |
+| [ASDF][]        | Information for the standardization work for IETF ASDF workgroup     |
 | [IETF108][]     | Information for the standardization work for IETF meeting 108        |
 | [tools][]       | SDF tools                                                            |
 | [playground][]  | playground of non-official data models that could be OneDM data models, but aren't yet. Correct SDF syntax.  |
@@ -89,10 +90,10 @@ Next steps for SDF development (conducted in parallel):
 [unit_test]: https://github.com/one-data-model/unit_test
 
 
-[SDF language]: https://onedm.org/SDF/sdf.html
-[IETF SDF]: https://www.ietf.org/id/draft-onedm-t2trg-sdf-00.html
+[SDF language]: https://github.com/ietf-wg-asdf/SDF
+[IETF SDF]: https://datatracker.ietf.org/doc/draft-ietf-asdf-sdf/
+[ASDF]: https://datatracker.ietf.org/wg/asdf/about/
 [IETF108]: https://github.com/one-data-model/ietf108
-
 [RFC8610]: https://tools.ietf.org/html/rfc8610
 
 
