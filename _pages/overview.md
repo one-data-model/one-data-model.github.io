@@ -145,6 +145,7 @@ Next steps for OneDM (conducted in parallel):
 
 [SDF language]: https://github.com/ietf-wg-asdf/SDF
 [IETF SDF]: https://datatracker.ietf.org/doc/draft-ietf-asdf-sdf/
+[ASDF]: https://datatracker.ietf.org/wg/asdf/about/
 [IETF editors version of SDF]: https://github.com/ietf-wg-asdf/SDF
 
 [IETF108]: https://github.com/one-data-model/ietf108
