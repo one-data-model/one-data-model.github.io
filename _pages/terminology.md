@@ -14,21 +14,29 @@ toc_sticky : true
 ---
 # Terminology
 
-| SDF Definition | [OMA IPSO/LwM2M][lwm2m-spec]      |  [Open Connectivity Foundation (OCF)][ocf-spec]|
-| -------------  | ------------------- |------------------- |
-| sdfThing       | LwM2M device        |    OCF Device  |
-| sdfObject      | Object              |    OCF Resource    |
-| sdfAction      | Resource            |    OCF Resource |
-| sdfEvent       | (SEND interface?)   |    response of Observe   |
-| sdfProperty    | Resource            |    JSON property   |
-| sdfData        |         |     reusable definitions at #/definitions |
-| sdfProduct        |         |    N/A   |
+High level terms mapped to terms used by various organisations.
+
+| SDF Definition |[OMA IPSO/LwM2M][lwm2m-spec]| [OCF][ocf-spec] | [Zigbee][Zigbee]|[WoT TD][WoT]| [iotschema.org][iotschema] |
+| -------------  | -------------------        |------------------- |   --------  | --------    |   --------    |
+| sdfThing       | LwM2M device               |  OCF Device        | Device Type | TD instance |  iotThing     |
+| sdfObject      | Object                     |  OCF Resource      | Cluster     |TD instance  | iotCapability |
+| sdfProperty    | Resource                   |  JSON property     | Attribute   | Property    | iotProperty   |
+| sdfAction      | Resource                   |  OCF Resource      | Command     | Action      | iotAction     |
+| sdfEvent       | (SEND interface?)          | response of Observe| Event       | Event       |  iotEvent     |
+| sdfData        |        |  reusable definitions at #/definitions | Data Type   | DataSchema  | iotData       |
+| sdfIn/outputData |                          |  schema    |Command Fields| input, output DataSchema | iotData |
+| sdfChoice      |   enum                     |  enum              | enum        | enum data   | enum, RDF     |
+| sdfRef         |                            |  $ref              | N/A         | N/A         | RDF links     |
+| sdfRequired    |                            |  required          | N/A         | required    |
+| sdfProduct     |                            |  N/A               |             |             |
 
 ## Qualities
 
+Qualities mapped to terms used by various organisations
+
 | Quality       | Description                                                             | OMA IPSO/LwM2M      | OCF [OpenAPI][oas]   |
 | ------------- | ----------------------------------------------------------------------- | ------------------- | -------------------- |
-| label          | human readable name                                                     | Name                | n (as JSON property) |
+| label          | human readable name                                                    | Name                | n (as JSON property) |
 | description   | human readable description                                              | Description         | description          |
 | title         | human readable title to display                                         | Name                | title                |
 | $comment      | explanatory comments                                                    | XML comments        | N/A                  |
@@ -67,3 +75,6 @@ However, each implementation can be further restricted by using range and step p
 [lwm2m-spec]: http://www.openmobilealliance.org/release/LightweightM2M/V1_1_1-20190617-A/HTML-Version/OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A.html
 [ocf-spec]: https://openconnectivity.org/developer/specifications/
 [oas]: https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md
+[zigbee]: https://zigbeealliance.org/
+[iotschema]: http://iotschema.org/
+[WoT]: https://www.w3.org/WoT/
