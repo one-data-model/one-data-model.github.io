@@ -47,7 +47,6 @@ Qualities mapped to terms used by various organisations
 | observable    | flag to indicate asynchronous notification is available                 | (always)            | (always)             |
 | contentFormat | IANA media type string                                                  | text/raw/SenML      | N/A                  |
 | subtype       | subtype enumeration                                                     | (Part of) Type      | N/A                  |
-
 | units         | SenML unit code                                                         | Units               | N/A                  |
 | nullable      | indicates a null value is available for this type                       | true                | N/A                  |
 | scaleMinimum  | lower limit of value in units                                           | N/A                 | N/A                  |
