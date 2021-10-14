@@ -15,8 +15,8 @@ toc_sticky : true
 ## Introduction
 
 Semantic Definition Format (SDF) is a new description format to describe abstract data models.
-SDF conveys abstract meta-model for IoT device affordances, behavior, and context
-Decoupled from network bindings, protocol-agile
+SDF conveys abstract meta-model for IoT device affordances, behavior, and context,
+decoupled from communication details. SDF provides:
 - Common categories for affordances 
 - Common categories for constraints
 - Common format for definitions
@@ -26,13 +26,13 @@ The choice of creating a new description format was due to that used description
 It was deemed to be too difficult to take an existing definition format and change it to in such way that it would satisfy the need of conveying data models.
 
 The requirements that needs to be full filled are:
-- conveying rest-full and action based paradigmns
+- conveying RESTfull and action based paradigms
 - conveying type information
 - conveying semantic information
 - data defined has to be agnostic of the transport layer
 - enable reuse of properties and components by multiple models
 
-SDF is not created from scratch, it is using JSON as much as possible.
+SDF is not created from scratch, it is using existing JSON features as much as possible.
 Using JSON as a representation language has a few advantages:
 
 - The content is machine-readable, without the need to construct
@@ -41,12 +41,13 @@ Using JSON as a representation language has a few advantages:
   of these data description languages.  SDF 1.0 uses both CDDL
   ([RFC8610][]) and the formats proposed at json-schema.org for this.
 - The structure of the data themselves can be modelled in similar
-  ways; [SDF language][] borrows specific elements of the json-schema.org
+  ways; SDF borrows specific elements of the json-schema.org
   proposals for this.
 - Abundant tools and libraries are available to produce/consume JSON,
   so tooling to work with SDF models can be created efficiently.
 
-The syntax and semantics of the SDF format are described in the [SDF][] repository.
+The syntax and semantics of SDF are described in the SDF specification.
+After the initial development at the OneDM group, the SDF standardization continues now in the [ASDF IETF Working Group][ASDF]. Information about the latest published draft of SDF is available in the [IETF Data Tracker][IETF SDF]. Latest editor draft is available in the [SDF language] repository.
 The [terminology][] page relates the SDF terms against SDO used terms.
 
 ## Verification of SDF
@@ -74,7 +75,6 @@ Next steps for SDF development (conducted in parallel):
 
 | repo name       | Description                                                          |
 |-----------------|----------------------------------------------------------------------|
-| [SDF][]         | Semantic Definition Format (SDF) for Data and Interactions of Things |
 | [ASDF][]        | Information for the standardization work for IETF ASDF workgroup     |
 | [IETF108][]     | Information for the standardization work for IETF meeting 108        |
 | [tools][]       | SDF tools                                                            |
@@ -83,7 +83,6 @@ Next steps for SDF development (conducted in parallel):
 | [unit_test][]   | SDF models for unit (error) testing                        |
 
 
-[SDF]: https://github.com/one-data-model/SDF
 [tools]: https://github.com/one-data-model/tools
 [playground]: https://github.com/one-data-model/playground
 [exploratory]: https://github.com/one-data-model/exploratory
