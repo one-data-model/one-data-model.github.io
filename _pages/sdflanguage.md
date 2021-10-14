@@ -64,12 +64,6 @@ pull requests and provides reports with respect to their syntax usage.
 All models in the [playground][] are syntactically valid SDF files, while the other
 repositories tolerate (or deliberately contain) deviations.
 
-## Future steps
-
-Next steps for SDF development (conducted in parallel):
-
-- Standardize the Semantic Definition Format (SDF) in IETF
-- enhance SDF to convey complex models
 
 ## Repository overview
 
