@@ -17,16 +17,17 @@ toc_sticky : true
 Semantic Definition Format (SDF) is a new description format to describe abstract data models.
 SDF conveys abstract meta-model for IoT device affordances, behavior, and context,
 decoupled from communication details. SDF provides:
-- Common categories for affordances 
+- Common categories for affordances
 - Common categories for constraints
 - Common format for definitions
 
-Initial focus on affordances is to normalize device-facing interactions across SDO's and vendors.
+Initial focus on affordances is to normalize device-facing interactions across SDOs and vendors.
 The choice of creating a new description format was due to that used description formats by the participating organizations where tailor made for the purpose in the organization only.
 It was deemed to be too difficult to take an existing definition format and change it to in such way that it would satisfy the need of conveying data models.
 
-The requirements that needs to be full filled are:
-- conveying RESTfull and action based paradigms
+The requirements that need to be fulfilled are:
+
+- conveying RESTful and action based paradigms
 - conveying type information
 - conveying semantic information
 - data defined has to be agnostic of the transport layer
@@ -47,8 +48,8 @@ Using JSON as a representation language has a few advantages:
   so tooling to work with SDF models can be created efficiently.
 
 The syntax and semantics of SDF are described in the SDF specification.
-After the initial development at the OneDM group, the SDF standardization continues now in the [ASDF IETF Working Group][ASDF]. Information about the latest published draft of SDF is available in the [IETF Data Tracker][IETF SDF]. Latest editor draft is available in the [SDF language] repository.
-The [terminology][] page relates the SDF terms against SDO used terms.
+After the initial development at the OneDM group, the SDF standardization continues now in the [IETF ASDF Working Group][ASDF]. Information about the latest published draft of SDF is available in the [IETF Data Tracker][IETF SDF]. The latest editor draft is available in the [SDF language] repository.
+The [terminology][] page relates the SDF terms against terms used in other SDOs.
 
 ## Verification of SDF
 
@@ -78,3 +79,6 @@ repositories tolerate (or deliberately contain) deviations.
 
 
 [terminology]: /terminology
+
+<!--  LocalWords:  SDF RESTful
+ -->
