@@ -49,7 +49,7 @@ OneDM will be open for anyone to join and contribute, and all of the tools and m
 
 ### How do I as a developer use OneDM?
 
-OneDM provides a modeling language, [Semantic Definition Format (SDF)][SDF language], and provides access to a body of contributed IoT data models that you can use to build IoT devices. OneDM provides some basic tools to enable you as a developer to define new models, translate models to and from other SDO formats like LwM2M XML/MOD files or OCF OpenAPI files. The models and tools are all available under the BSD 3-Clause license.
+OneDM provides a modeling language, [Semantic Definition Format (SDF)][sdflanguage], and provides access to a body of contributed IoT data models that you can use to build IoT devices. OneDM provides some basic tools to enable you as a developer to define new models, translate models to and from other SDO formats like LwM2M XML/MOD files or OCF OpenAPI files. The models and tools are all available under the BSD 3-Clause license.
 
 As an organization or vendor, you can use OneDM to host a privately-managed repository where you can manage your own online stable namespace within OneDM for your own definitions, whether you ultimately intend to converge them in OneDM or not.
 
@@ -104,8 +104,11 @@ The relationship between SDF [terminology][] and other SDO terminology is explai
 
 ### Is there a video tutorial?
 
-A tutorial is available on [![youtube](https://img.youtube.com/vi/sTrqa5jYVKo/0.jpg)](https://www.youtube.com/watch?v=sTrqa5jYVKo)
-Note that the tutorial uses the old prefix odm instead of sdf.
+A tutorial is available on YouTube:
+
+[![youtube](https://img.youtube.com/vi/sTrqa5jYVKo/0.jpg)](https://www.youtube.com/watch?v=sTrqa5jYVKo)
+
+Note that the tutorial uses the old prefix `odm` instead of `sdf`.
 
 ### Is there a presentation available?
 
@@ -118,14 +121,13 @@ Note that the tutorial uses the old prefix odm instead of sdf.
 <!--  LocalWords:  affordances namespace schemas SDF SDOs ZigBee SDO
  -->
 
-[SDF]: https://github.com/one-data-model/SDF
 [tools]: https://github.com/one-data-model/tools
 [playground]: https://github.com/one-data-model/playground
 [exploratory]: https://github.com/one-data-model/exploratory
 [unit_test]: https://github.com/one-data-model/unit_test
 
 
-[SDF language]: https://onedm.org/SDF/sdf.html
+[sdflanguage]: https://onedm.org/sdflanguage/
 
 [terminology]: /terminology
 
