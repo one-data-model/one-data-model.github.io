@@ -65,28 +65,15 @@ All models in the [playground][] are syntactically valid SDF files, while the ot
 repositories tolerate (or deliberately contain) deviations.
 
 
-## Repository overview
-
-| repo name       | Description                                                          |
-|-----------------|----------------------------------------------------------------------|
-| [ASDF][]        | Information for the standardization work for IETF ASDF workgroup     |
-| [IETF108][]     | Information for the standardization work for IETF meeting 108        |
-| [tools][]       | SDF tools                                                            |
-| [playground][]  | playground of non-official data models that could be OneDM data models, but aren't yet. Correct SDF syntax.  |
-| [exploratory][] | playground of non-official data models that explore new SDF features or new ways of using SDF. Not always conforming to current SDF validation syntax. |
-| [unit_test][]   | SDF models for unit (error) testing                        |
-
 
 [tools]: https://github.com/one-data-model/tools
 [playground]: https://github.com/one-data-model/playground
 [exploratory]: https://github.com/one-data-model/exploratory
 [unit_test]: https://github.com/one-data-model/unit_test
 
-
 [SDF language]: https://github.com/ietf-wg-asdf/SDF
 [IETF SDF]: https://datatracker.ietf.org/doc/draft-ietf-asdf-sdf/
 [ASDF]: https://datatracker.ietf.org/wg/asdf/about/
-[IETF108]: https://github.com/one-data-model/ietf108
 [RFC8610]: https://tools.ietf.org/html/rfc8610
 
 
