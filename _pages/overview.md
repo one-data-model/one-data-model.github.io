@@ -124,6 +124,13 @@ Next steps for OneDM (conducted in parallel):
 - Select models in the playground to for OneDM
 - Further develop SDF so that more complex models can be created
 
+## converted Models per organisation
+
+| repo name       | Converted  | Description                                             |
+|-----------------|-----------|---------------------------------------------------------|
+| [OCF][]         | OCF   |  OCF converted models in SDF format |
+| [OMA][]         | OMA | OMA converted models in SDF format    |
+
 ## Repository overview
 
 | repo name       | Type      | Description                                             |
@@ -136,12 +143,15 @@ Next steps for OneDM (conducted in parallel):
 | [exploratory][] | Data Models | Playground of non-official data models that explore new SDF features or new ways of using SDF. Not always conforming to current SDF validation syntax. |
 | [unit_test][]   | Data Models | SDF models for unit (error) testing                        |
 
+
+[OCF]: https://github.com/one-data-model/ocf-models
+[OMA]: https://github.com/one-data-model/oma-models
+
 [SDF]: https://github.com/one-data-model/SDF
 [tools]: https://github.com/one-data-model/tools
 [playground]: https://github.com/one-data-model/playground
 [exploratory]: https://github.com/one-data-model/exploratory
 [unit_test]: https://github.com/one-data-model/unit_test
-
 
 [SDF language]: https://github.com/ietf-wg-asdf/SDF
 [IETF SDF]: https://datatracker.ietf.org/doc/draft-ietf-asdf-sdf/
