@@ -28,37 +28,30 @@ Meeting information of the [2020 Spring conference][].
 ## Meeting information
 
 The meetings are conducted in public.
-Meeting are held on Mondays 14:00 BST.
-See for dial-in details the "One Data Model" group on [iotliaison][] Causeway.
+During European winter, meetings are held on Mondays 16:00 UTC.
+See for dial-in details the "One Data Model" group on [OneDM groups.io][onedm].
 
 ## Contact information
 
 ### Public contact information
 
-The contact is through the "One Data Model" group on [iotliaison][] Causeway.
-This is a public group.
+The contact is through the "One Data Model" mailing list that has
+recently moved.
+It can be joined on [OneDM groups.io][onedm]; this group is open to
+joining.
 
-Email of the OneDM group: [onedm@iotliaison.org](mailto:onedm@iotliaison.org)
+Once joined, the email address of the OneDM group mailing list is:
+[onedm@groups.io](mailto:onedm@groups.io)
 
-Email of the OneDM group chair: [onedm-chair@iotliaison.org](mailto:onedm-chair@iotliaison.org)
-
-### Contact information under NDA
-
-The contact is through the "One Data Model Group - Liaison" group on [iotliaison][] Causeway.
-This is a group working under NDA of liaison of [OCF][].
-
-Email of the OneDM liaison (under NDA) group: [onedm@iotliaison.org](mailto:onedm-liaison@iotliaison.org)
-
-Email of the OneDM liaison (under NDA) group chair: [onedm-chair@iotliaison.org](mailto:onedm-liaison-chair@iotliaison.org)
-
+In case of trouble joining, please contact [Carsten Bormann](mailto:cabo@tzi.org).
 
 ### Contact information IETF ASDF
 
-IETF [ASDF][] is the work group that is governing the work on SDF.
+[ASDF][] is the IETF working group that is governing the work on SDF.
 
-Progress and versions can be found at [IETF SDF][].
+Progress and specifications can be found at [IETF SDF][].
 
-The [SDF language][] is IETF Github containing SDF syntax.
+[SDF language][] is the GitHub repository for the specification of the SDF syntax.
 
 
 <!--  LocalWords:  affordances namespace schemas SDF SDOs ZigBee SDO
@@ -67,9 +60,8 @@ The [SDF language][] is IETF Github containing SDF syntax.
 [SDF language]: https://github.com/ietf-wg-asdf/SDF
 [IETF SDF]: https://datatracker.ietf.org/doc/draft-ietf-asdf-sdf/
 [ASDF]: https://datatracker.ietf.org/wg/asdf/about/
- 
- 
+
 [2020 Spring conference]: https://github.com/one-data-model/Conference2020
-[iotliaison]: https://iotliaison.org/
+[onedm]: https://groups.io/g/onedm
 [Zigbee Alliance]: https://zigbeealliance.org/
 [OCF]: https://openconnectivity.org/
