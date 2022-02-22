@@ -124,7 +124,7 @@ Next steps for OneDM (conducted in parallel):
 - Select models in the playground to for OneDM
 - Further develop SDF so that more complex models can be created
 
-## converted Models per organisation
+## Converted Models per organisation
 
 | repo name       | Converted  | Description                                             |
 |-----------------|-----------|---------------------------------------------------------|
