@@ -14,9 +14,10 @@ toc_sticky : true
 ---
 ## Introduction
 
-Semantic Definition Format (SDF) is a new description format to describe abstract data models.
+Semantic Definition Format (SDF) is a description format to describe abstract data models.
 SDF conveys abstract meta-model for IoT device affordances, behavior, and context,
 decoupled from communication details. SDF provides:
+
 - Common categories for affordances
 - Common categories for constraints
 - Common format for definitions
@@ -48,7 +49,8 @@ Using JSON as a representation language has a few advantages:
   so tooling to work with SDF models can be created efficiently.
 
 The syntax and semantics of SDF are described in the SDF specification.
-After the initial development at the OneDM group, the SDF standardization continues now in the [IETF ASDF Working Group][ASDF]. Information about the latest published draft of SDF is available in the [IETF Data Tracker][IETF SDF]. The latest editor draft is available in the [SDF language] repository.
+The Base SDF specification has been published as an [IETF RFC].
+Further work on SDF-based standardization continues in the [IETF ASDF Working Group][ASDF]. 
 The [terminology][] page relates the SDF terms against terms used in other SDOs.
 
 ## Verification of SDF
@@ -73,7 +75,7 @@ repositories tolerate (or deliberately contain) deviations.
 [unit_test]: https://github.com/one-data-model/unit_test
 
 [SDF language]: https://github.com/ietf-wg-asdf/SDF
-[IETF SDF]: https://datatracker.ietf.org/doc/draft-ietf-asdf-sdf/
+[IETF RFC]: https://www.rfc-editor.org/rfc/rfc9880
 [ASDF]: https://datatracker.ietf.org/wg/asdf/about/
 [RFC8610]: https://tools.ietf.org/html/rfc8610
 
