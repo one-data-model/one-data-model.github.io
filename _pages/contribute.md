@@ -84,7 +84,7 @@ one data model<sup>TM</sup>
 
 
 [SDF language]: https://github.com/ietf-wg-asdf/SDF
-[IETF SDF]: https://datatracker.ietf.org/doc/draft-ietf-asdf-sdf/
+[IETF SDF]: https://www.rfc-editor.org/rfc/rfc9880
 [ASDF]: https://datatracker.ietf.org/wg/asdf/about/
 
 

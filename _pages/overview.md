@@ -85,10 +85,10 @@ To achieve that goal the first step to take is to have a common way how to write
 Since all participating organizations are currently doing this
 in their own ways, it makes sense to develop a single way to describe models.
 Hence, the Semantic Definition Format (SDF) is created.
-The syntax and semantics of the SDF format are described in the [SDF][] repository.
+The syntax and semantics of the base SDF format are described in the [IETF SDF][] RFC.
 The easy readable version [SDF language][].
 
-To track the updates in the IETF version see the [IETF draft of SDF](https://www.ietf.org/id/draft-onedm-t2trg-sdf-00.html).
+To track the updates in the IETF specifications that depend on the base SDF specification, see the [ASDF][] working group.
 
 SDF is representing the models in JSON.
 Using JSON as a representation language has a few advantages:
@@ -154,7 +154,7 @@ Next steps for OneDM (conducted in parallel):
 [unit_test]: https://github.com/one-data-model/unit_test
 
 [SDF language]: https://github.com/ietf-wg-asdf/SDF
-[IETF SDF]: https://datatracker.ietf.org/doc/draft-ietf-asdf-sdf/
+[IETF SDF]: https://www.rfc-editor.org/rfc/rfc9880
 [ASDF]: https://datatracker.ietf.org/wg/asdf/about/
 [IETF editors version of SDF]: https://github.com/ietf-wg-asdf/SDF
 

@@ -49,7 +49,7 @@ In case of trouble joining, please contact [Carsten Bormann](mailto:cabo@tzi.org
 
 [ASDF][] is the IETF working group that is governing the work on SDF.
 
-Progress and specifications can be found at [IETF SDF][].
+The SDF base specification can be found at [IETF SDF][].
 
 [SDF language][] is the GitHub repository for the specification of the SDF syntax.
 
@@ -58,7 +58,7 @@ Progress and specifications can be found at [IETF SDF][].
  -->
 
 [SDF language]: https://github.com/ietf-wg-asdf/SDF
-[IETF SDF]: https://datatracker.ietf.org/doc/draft-ietf-asdf-sdf/
+[IETF SDF]: https://www.rfc-editor.org/rfc/rfc9880
 [ASDF]: https://datatracker.ietf.org/wg/asdf/about/
 
 [2020 Spring conference]: https://github.com/one-data-model/Conference2020
